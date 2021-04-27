@@ -21,7 +21,10 @@ public class Sort {
         // BubbleSort.bubbleSort(a);
         // System.out.println("\n");
 
-        QuickSort.quickSort(a,0,a.length-1);
+        // QuickSort.quickSort(a,0,a.length-1);
+        // System.out.println(Arrays.toString(a));
+
+        HeapSort.sort(a);
         System.out.println(Arrays.toString(a));
     }
 }
